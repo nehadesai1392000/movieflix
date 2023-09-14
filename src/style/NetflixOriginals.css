@@ -1,0 +1,146 @@
+.new-slider-imgPath {
+    margin-top: 90px;
+
+}
+
+.new-slider-imgPath h2 {
+    color: white;
+    padding-left: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.new-slider-imgPath .netflix-gerund img {
+    object-fit: contain;
+    border-radius: 5px;
+    transition: transform .6s;
+    /* Animation */
+
+
+}
+
+.new-slider-imgPath .netflix-gerund:hover img {
+    transform: scale(1.2);
+
+}
+
+/* antd */
+
+:where(.css-dev-only-do-not-override-10ed4xt).ant-btn {
+    display: none;
+
+}
+
+
+:where(.css-dev-only-do-not-override-10ed4xt).ant-modal .ant-modal-footer .ant-btn+.ant-btn:not(.ant-dropdown-trigger) {
+    display: none;
+
+}
+
+.anticon svg {
+    display: none;
+
+}
+
+.ant-modal-root .ant-modal-wrap {
+    position: fixed;
+    top: 0;
+    inset-inline-end: 0;
+    bottom: 0;
+    inset-inline-start: 0;
+    overflow: hidden !important;
+    outline: 0;
+}
+
+:where(.css-dev-only-do-not-override-10ed4xt).ant-modal .ant-modal-content {
+    width: 90rem;
+    right: 220px;
+    height: 30rem;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.byDefoe-dataImg img {
+    height: 32rem;
+    width: 90rem;
+}
+
+
+.data-main-popUp {
+    position: relative;
+    bottom: 27rem;
+    color: white;
+    margin-top: -100px;
+    background: linear-gradient(90deg, #000 20%, transparent);
+    height: 33rem;
+
+}
+
+.popUp-para p {
+    height: 20px;
+    width: 692px;
+    font-size: 18px;
+    margin-left: 40px;
+    color: #7a7a7a;
+}
+
+
+.Rating-sec {
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+
+.Rating-sec span{
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.Kingdom-main-sec h1{
+    font-size: 41px;
+    margin-left: 40px;
+    padding-top: 55px;
+    
+}
+
+
+.ply-myList{
+    margin-top: 130px;
+    margin-left: 40px;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.ply-myList .ply{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: transform .6s;
+
+}
+.ply-myList .ply:hover{
+    transform: scale(1.1);
+}
+
+
+.ply-myList .myList{
+    height: 40px;
+   width: 120px;
+    background-color:transparent;
+    color:white;
+    border: 1px solid #7a7a7a !important;
+    border-radius: 2px;
+    transition: transform .6s;
+}
+
+.ply-myList .myList:hover{
+    transform: scale(1.1);
+
+} 

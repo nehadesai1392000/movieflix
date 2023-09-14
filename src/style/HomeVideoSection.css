@@ -1,0 +1,71 @@
+.narcos-video video{
+    z-index: -1;
+}
+
+.main-narco-section h1{
+    position: absolute;
+    top: 167px;
+    left: 58px;
+    color: white;
+    font-size: 60px;
+}
+
+.main-narco-section p{
+    position: absolute;
+    top: 250px;
+    left: 63px;
+    color: white;
+    top: 20rem; 
+    font-size: 1.3rem;
+}
+
+.info-speck-btn{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 330px;
+    left: 63px;
+}
+
+.info-speck-btn{
+    top: 27rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 55rem;
+
+}
+
+.play-moreInfo{
+    display: flex;
+    gap: 30px;
+}
+
+
+.play-moreInfo button:first-child{
+   height: 40px;
+   width: 90px;
+   font-weight: 500;
+   font-size: 17px;
+   cursor: pointer;
+   border-radius: 4px;
+   border: none;
+   outline: none;
+}
+
+.play-moreInfo button:last-child{
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', 'sans-serif';
+    background-color: rgba(109, 109, 110, 0.7);
+    color: #fff;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+ }

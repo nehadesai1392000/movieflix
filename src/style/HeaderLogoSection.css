@@ -1,0 +1,24 @@
+.Main-header-logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.Main-header-logo-section .netflix-logo img {
+    width: 170px;
+}
+.Main-header-logo-section .menuBar-netflix ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #dddddd;
+    text-decoration: none;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+
+.Main-header-logo-section .menuBar-netflix ul  :hover{
+    color: #a7a7a7;
+}

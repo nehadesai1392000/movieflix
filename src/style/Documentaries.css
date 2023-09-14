@@ -1,0 +1,12 @@
+.Made-Andres{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.Made-Andres p{
+    color: white;
+    font-size: 1.2rem;
+        margin-bottom: 40px;
+}

@@ -1,0 +1,57 @@
+.header-search-section-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.header-search-section-main .search-box {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-search-section-main .search-box input[type="text"]{
+    width: 0px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .3s ease-in-out;
+    margin-top: 10px;
+    background-color: black;
+  }
+  .header-search-section-main .search-box input[type="text"]:focus{
+    width: 250px;
+    height: 30px;
+    background-color: black;
+}
+  
+
+
+
+.bellFill-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.kind-dvd-sec ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    cursor: pointer;
+    color: #dddddd;
+
+}
+
+.kind-dvd-sec ul:hover {
+    color: #a7a7a7;
+}
+
+.navigation__container--userLogo {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c9c74e;
+    height: 2.3rem;
+    width: 2.3rem;
+    margin-right: 0.5rem;
+
+}

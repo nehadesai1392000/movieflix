@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', 'sans-serif';
+}
+
+body{
+    position: relative;
+    background-color:black;
+    overflow-x: hidden;
+}
+.searchAndLogo-part{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 6.7rem;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    z-index: 99999;
+}
+
